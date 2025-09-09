@@ -14,6 +14,8 @@ SYSLOG_SSL_VERIFY=$(bashio::config 'syslog_ssl_verify')
 export SYSLOG_SSL_VERIFY
 LOGTAIL_TOKEN=$(bashio::config 'logtail_token')
 export LOGTAIL_TOKEN
+LOGTAIL_ID=$(bashio::config 'logtail_id')
+export LOGTAIL_ID
 HAOS_HOSTNAME=$(bashio::info.hostname)
 export HAOS_HOSTNAME
 

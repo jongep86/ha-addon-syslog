@@ -20,6 +20,7 @@ options:
   syslog_ssl: false
   syslog_ssl_verify: true
   logtail_token: ""
+  logtail_id: 11993
 schema:
   syslog_host: str
   syslog_port: int
@@ -27,3 +28,4 @@ schema:
   syslog_ssl: bool
   syslog_ssl_verify: bool
   logtail_token: str
+  logtail_id: int
